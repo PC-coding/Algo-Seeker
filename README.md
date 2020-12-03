@@ -13,7 +13,8 @@ Technologies used: React, JavaScript, CSS.
     </li>
     <li>
     Algorithms included:
-<p>
+<p>  
+
 
 - Breadth-first Search
 
@@ -29,9 +30,8 @@ Technologies used: React, JavaScript, CSS.
 
 - Heap Sort
 
-- Bubble Sort
-
- </p>
+- Bubble Sort  
+</p>
     </li>
     <li>
     Styled and designed application with CSS.
