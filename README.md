@@ -14,6 +14,7 @@ Technologies used: React, JavaScript, CSS.
     <li>
     Algorithms included:
 <p>
+
 - Breadth-first Search
 
 - Depth-first Search
