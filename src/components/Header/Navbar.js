@@ -6,10 +6,12 @@ export default function Navbar() {
         <nav>
             <Link>
                 Sorting Algorithms
+                {/* image logo here */}
             </Link>
 
             <Link>
                 Pathfinding Visualizer
+                {/* image logo here */}
             </Link>
         </nav>
     )
