@@ -3,7 +3,19 @@ import './Node.css';
 
 export default class Node extends Component {
     render() {
-
+        const {
+            col,
+            isFinish,
+            isStart,
+            isWall,
+            onMouseDown,
+            onMouseEnter,
+            onMouseUp,
+            row,
+        } = this.props;
+        const extraClassName = isFinish? 
+        
+        }
         return (
             <div>
                 Node
