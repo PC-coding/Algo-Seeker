@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
     return(
         <nav>
-            <Link>
+            <Link to='/sortingalgos'>
                 Sorting Algorithms
                 {/* image logo here */}
             </Link>
 
-            <Link>
+            <Link to='/pathfindingvisualizer'>
                 Pathfinding Visualizer
                 {/* image logo here */}
             </Link>

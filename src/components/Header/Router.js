@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import PathfindingVisualizer from '../PathfindingVisualizer/PathfindingVisualizer';
+import SortingAlgos from '../SortingAlgos/SortingAlgos.js';
 
 export default function Router() {
     return(
@@ -9,8 +10,8 @@ export default function Router() {
                 <PathfindingVisualizer />
             </Route>
 
-            <Route path='/sortingalgo'>
-                {/* <SortingAlgos />/ */}
+            <Route path='/sortingalgos'>
+                <SortingAlgos />
             </Route>
         </div>
     )

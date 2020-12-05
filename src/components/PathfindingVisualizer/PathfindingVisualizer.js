@@ -1,9 +1,12 @@
 import React from 'react';
+import './PathfindingVisualizer.css';
 
 export default function PathfindingVisualizer() {
     return(
         <div>
-            <h1>PathfindingVisualizer</h1>
+            <h1>
+                Pathfinding Visualizer
+            </h1>
         </div>
     )
 }
