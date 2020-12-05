@@ -13,12 +13,13 @@ export default class Node extends Component {
             onMouseUp,
             row,
         } = this.props;
-        const extraClassName = isFinish? 
-        
-        }
+        const extraClassName = isFinish ;
+
+    
+
         return (
             <div>
-                Node
+                id ={ `node-${row}-${col}`}
             </div>
         );
     }
