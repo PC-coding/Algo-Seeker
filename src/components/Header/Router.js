@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import PathfindingVisualizer from '../PathfindingVisualizer/PathfindingVisualizer';
-import SortingAlgos from '../SortingAlgos/SortingAlgos.js';
+import SortingAlgos from '../SortingAlgos/SortingVisualizer';
 
 export default function Router() {
     return(

@@ -1,6 +1,7 @@
 import React from 'react';
+import './SortingAlgos.css';
 
-export default function SortingAlgos(){
+export default function SortingVisualizer(){
     return(
         <div>
             <h1>
