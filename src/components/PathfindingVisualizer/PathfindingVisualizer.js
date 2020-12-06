@@ -1,4 +1,5 @@
 import React from 'react';
+import Node from './Node/Node';
 import './PathfindingVisualizer.css';
 
 export default function PathfindingVisualizer() {
