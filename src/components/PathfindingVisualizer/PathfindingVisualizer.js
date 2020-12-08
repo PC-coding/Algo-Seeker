@@ -3,10 +3,28 @@ import Node from './Node/Node';
 import './PathfindingVisualizer.css';
 
 export default class PathfindingVisualizer extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            nodes: [],
+        };
+    }
 
+    componentDidMount(){
+        const nodes = [];
+        for (let row = 0; row < 15; row++) {
+            const currentRow = [];
+            for (let col = 0; col < 50; col++) {
+                currentRow.push([]);
+            }
+            nodes.push(currentRow);
+        }
+        this.setState({nodes})
+    }
+    
     render(){ 
         const {grid, mouseIsPressed } = this.state;
-
+        const {nodes} = this.state;
         return(
             <div>
                 <button >
@@ -15,21 +33,13 @@ export default class PathfindingVisualizer extends Component {
                 {/* <h1>
                     Pathfinding Visualizer
                 </h1> */}
-                {/* <div className='grid'>
-                    {grid.map((row, rowIdx) => {
-                        const {row, col, isFinish, isStart, isWall} = node;
-                        return(
-                            <Node
-                            key={nodeIdx}
-                            col={col}
-                            isFinish={isFinish}
-                            isStart={isStart}>
-
-                            </Node>
-                        )
-                    }
-                    )}                    
-                </div> */}
+                <div className='grid'>
+                    {nodes.map((row, rowIdx) => {
+                        return <div>
+                                    {row.map((node, rowIdx) => <Node></Node>)}
+                                </div>
+                    })}                 
+                </div>
             </div>
         )
     }
