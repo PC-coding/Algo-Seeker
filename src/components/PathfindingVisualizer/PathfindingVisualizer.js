@@ -26,20 +26,15 @@ export default class PathfindingVisualizer extends Component {
         const {grid, mouseIsPressed } = this.state;
         const {nodes} = this.state;
         return(
-            <div>
-                <button >
+            <div className='grid'>
+                {/* <button >
                 Visualize
-                </button>
-                {/* <h1>
-                    Pathfinding Visualizer
-                </h1> */}
-                <div className='grid'>
-                    {nodes.map((row, rowIdx) => {
-                        return <div>
-                                    {row.map((node, rowIdx) => <Node></Node>)}
-                                </div>
-                    })}                 
-                </div>
+                </button> */}
+                {nodes.map((row, rowIdx) => {
+                    return <div>
+                                {row.map((node, rowIdx) => <Node></Node>)}
+                            </div>
+                })}                 
             </div>
         )
     }
