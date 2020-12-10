@@ -40,6 +40,7 @@ export default class PathfindingVisualizer extends Component {
                     return ( 
                     <div key={rowIdx}>
                         {row.map((node, nodeIdx) => {
+                            const {isStart, isFinish} = node;
                             return(
                                 <Node 
                                 key={nodeIdx} 
