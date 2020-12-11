@@ -1,5 +1,5 @@
 import logo from './algoseeker.png';
-import './App.css';
+// import './App.css';
 import { BrowserRouter, Link } from 'react-router-dom';
 import PathfindingVisualizer from './components/PathfindingVisualizer/PathfindingVisualizer';
 import BFS from './components/BFS/BFS';

@@ -1,0 +1,13 @@
+body {
+    background: #ece7e7;
+}
+
+canvas {
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 0;
+}
+
+/* .canv1 {
+    position: absolute;
+} */
