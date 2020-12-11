@@ -1,8 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import Node from './Node/Node';
+import './PathfindingVisualizer.css';
+
 
 const PathfindingVisualizer = () => {
     const [Grid, setGrid] = useState([]);
     
+    useEffect(() => {
+        initializeGrid();
+    }, []);
+
     const cols = 5;
     const rows = 5;
 
@@ -14,7 +21,7 @@ const PathfindingVisualizer = () => {
         }
 
         createSpot(grid);
-
+        setGrid(grid);
     };
 
     const createSpot = (grid) => {
@@ -32,6 +39,11 @@ const PathfindingVisualizer = () => {
         this.f = 0;
         this.h = 0;
     }
+
+    // const gridWithNode = () => {
+
+    // }
+    console.log(Grid);
 
     return(
         <div>
