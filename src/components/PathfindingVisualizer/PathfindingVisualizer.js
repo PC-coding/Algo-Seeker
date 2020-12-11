@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Node from './Node/Node';
+import Node from './Node/Node.js';
 import './PathfindingVisualizer.css';
 
 
@@ -10,8 +10,8 @@ const PathfindingVisualizer = () => {
         initializeGrid();
     }, []);
 
-    const cols = 5;
-    const rows = 5;
+    const cols = 15;
+    const rows = 15;
 
     const initializeGrid = () => {
         const grid = new Array(cols);
@@ -38,18 +38,28 @@ const PathfindingVisualizer = () => {
         this.g = 0;
         this.f = 0;
         this.h = 0;
-    }
+    };
 
-    // const gridWithNode = () => {
-
-    // }
-    console.log(Grid);
+    const gridWithNode = () => {
+        <div>
+            {Grid.map((row, rowIndex) => {
+                return (
+                    <div key={rowIndex} className='rowWrapper'>
+                        {row.map((col, colIndex) => {
+                            return <Node key={colIndex} />;
+                        })}
+                    </div>
+                );
+            })}
+        </div>
+    };
 
     return(
-        <div>
+        <div className='Wrapper'>
             <h1> Pathfinding Visualizer</h1>
+            {gridWithNode}
         </div>
     )
-}
+};
 
 export default PathfindingVisualizer;

@@ -1,11 +1,9 @@
 import React from 'react';
+import './Node.css';
 
 const Node = () => {
-    return(
-        <div>
-
+    return <div className="node">
         </div>
-    )
 }
 
-export default Node;
+export default Node();
