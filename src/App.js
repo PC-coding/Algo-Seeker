@@ -10,8 +10,8 @@ const App = () => {
       <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Pathfinding Visualizer</h1>
-            <BFS />
             {/* <PathfindingVisualizer /> */}
+            <BFS />
       </div>
     )
 }  
