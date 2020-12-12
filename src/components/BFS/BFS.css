@@ -1,13 +1,55 @@
-body {
+/* body {
     background: #ece7e7;
 }
 
 canvas {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     position: absolute;
-    left: 0;
+    left: 450px;
+} */
+
+.expandButton1 {
+  left: 540px;
+  position: relative;
+
+}
+.reset1 {
+  left: 760px;
+  position: relative;
+  text-align: center;
+}
+#BFS {
+  height: 100vh;
+  margin-top: 650px;
+  margin-bottom: 450px;
+
 }
 
-/* .canv1 {
+.description25 {
+  font-family: 'Nunito-Regular';
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
+  margin-bottom: 7px;
+
+}
+
+.description2 {
+    font-family: 'Nunito-Regular';
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 11px;
+    text-align: center;
+  }
+  .title2 {
+      font-size: 5rem;
+      color: black;
+      text-align: center;
+  }
+  .reset2 {
     position: absolute;
-} */
+    left: 225px;
+    margin-top: 75px;
+    background-color: black;
+  }
+  
