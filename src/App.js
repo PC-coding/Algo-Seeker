@@ -4,6 +4,7 @@ import { BrowserRouter, Link } from 'react-router-dom';
 import PathfindingVisualizer from './components/PathfindingVisualizer/PathfindingVisualizer';
 import BFS from './components/BFS/BFS';
 import BFS2 from './components/BFS/BFS2';
+import QuickSort from './components/QuickSort/QuickSort';
 import BubbleSort from './components/BubbleSort/BubbleSort';
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
             <BFS2 />
             <BFS />
             <BubbleSort />
+            <QuickSort />
       </div>
     )
 }  
