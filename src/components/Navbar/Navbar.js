@@ -10,6 +10,8 @@ const Navbar = () => {
                 <Link to='/' style={{padding: 20}}>
                     <img src={img} style={{height:'50px', width:'50px'}} />
                 </Link>
+                <Link to='/' style={{textDecoration:'None'}}> 
+                Choose your Algorithm!: </Link>
 
                 <Link to='/dijkstras' style={{padding: 20}}>
                 Djikstra's

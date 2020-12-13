@@ -108,36 +108,10 @@ body {
 
 
 /*                                             NAVBAR                   */
-.navbar {
-  /*  this moves text up and down                  */
-line-height: 5px;
-/*  this moves blue line up and down                  */
-height: 65px;
-
-}
-.navbar-brand {
+.App-header {
   color: white;
-  font-family: 'Nunito-Regular';
-  font-size: 23px;
-  padding-right: 200px;
-  padding-top: 30px;
-  padding-left: 15px;
-
-
 }
-#exCollapsingNavbar2 {
-    font-family: 'Nunito-Regular';
-}
-.nav-item a {
-    border-bottom: 1px solid transparent;
-    transition: 0.5s;
-    color: #ffffff !important;
-    margin-right: 10px;
-    font-size: 19px;
 
-padding: 0 12px;
-
-}
 
 li {
   /* border-right: 0.5px solid #bbb; */

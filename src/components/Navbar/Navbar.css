@@ -1,5 +1,10 @@
-Link {
-    padding: 20;
+nav {
+    background-color: black;
+    align-items: center;
+}
+
+nav > Link {
+    color: white;
 }
 
 .img {
