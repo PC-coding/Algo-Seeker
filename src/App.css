@@ -38,6 +38,21 @@
 } */
 
 
+@media (prefers-reduced-motion: no-preference) {
+  .img{
+    animation: img-spin infinite 20s linear;
+  }
+}
+
+@keyframes img-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
 html,
 body {
     height: 100%;
@@ -108,22 +123,8 @@ body {
 
 
 /*                                             NAVBAR                   */
-.App-header {
-  color: white;
-}
 
 
-li {
-  /* border-right: 0.5px solid #bbb; */
-  /* this changes the height of the buttons themselves */
-  line-height: 40px;
-
-
-}
-li:first-child {
-  /* border-left: 0.5px solid #bbb; */
-  padding-left: 10px;
-}
 
 .nav-item a:hover {
     border-bottom: 1px solid lightblue;
