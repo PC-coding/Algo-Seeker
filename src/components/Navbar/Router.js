@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import PathfindingVisualizer from '../PathfindingVisualizer/PathfindingVisualizer';
 import QuickSort from '../QuickSort/QuickSort';
 import BubbleSort from '../BubbleSort/BubbleSort';
@@ -25,7 +25,6 @@ export default function Router(){
             <Route path='/bsort'>
                 <BubbleSort />
             </Route>
-
         </BrowserRouter>
     )
 }

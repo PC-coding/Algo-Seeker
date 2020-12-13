@@ -6,6 +6,7 @@ import BFS from './components/BFS/BFS';
 import BFS2 from './components/BFS/BFS2';
 import QuickSort from './components/QuickSort/QuickSort';
 import BubbleSort from './components/BubbleSort/BubbleSort';
+import Router from './components/Navbar/Router';
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
       <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Pathfinding Visualizer</h1>
+            <Router />
             <PathfindingVisualizer />
             <BFS2 />
             <BFS />
