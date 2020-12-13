@@ -1,10 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import img from '../../algoseeker.png'
 
 const Navbar = () => {
     return(
         <nav>
             <div>
+                <Link to='/'>
+                    <img src={img} />
+                </Link>
+
                 <Link to='/dijkstras'>
                 Djikstra's
                 </Link>
