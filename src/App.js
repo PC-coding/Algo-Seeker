@@ -3,7 +3,8 @@ import './App.css';
 import { BrowserRouter, Link } from 'react-router-dom';
 import PathfindingVisualizer from './components/PathfindingVisualizer/PathfindingVisualizer';
 import BFS from './components/BFS/BFS';
-import BFS2 from './components/BFS/BFS2'
+import BFS2 from './components/BFS/BFS2';
+import BubbleSort from './components/BubbleSort/BubbleSort';
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
             <PathfindingVisualizer />
             <BFS2 />
             <BFS />
+            <BubbleSort />
       </div>
     )
 }  

@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
-import P5Wrapper from 'react-p5-wrapper';
+import P5Wrapper from 'react-p5-wrapper'
 
 export default class BubbleSort extends Component {
 
   sketch(p){
     let values = [];
-  let w = 30;
-  let states = [];
-  let slow = false;
-  let slower = false;
-  let normal = true;
+    let w = 30;
+    let states = [];
+    let slow = false;
+    let slower = false;
+    let normal = true;
 
       p.setup = () => {
 
@@ -159,7 +159,7 @@ render() {
         <div id="resetBSort"></div>
 
 
-        <P5Wrapper sketch={this.sketch}></P5Wrapper>
+        <P5Wrapper sketch={this.sketch} />
 
       </section>
     );
