@@ -8,14 +8,14 @@ import BFS2 from '../BFS/BFS2';
 
 export default function Router(){
     return(
-        <BrowserRouter>
+        <div>
             <Route path='/dijkstras'>
                 <PathfindingVisualizer />
             </Route>
 
             <Route path='/bfs'>
-                <BFS />
                 <BFS2 />
+                <BFS />
             </Route>
 
             <Route path='/qsort'>
@@ -25,6 +25,6 @@ export default function Router(){
             <Route path='/bsort'>
                 <BubbleSort />
             </Route>
-        </BrowserRouter>
+        </div>
     )
 }

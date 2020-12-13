@@ -115,10 +115,10 @@ export default class QuickSort extends Component {
     }
       }
 
-      p.myCustomRedrawAccordingToNewPropsHandler = (newProps) => {
-        if(p.canvas) //Make sure the canvas has been created
-          p.fill(newProps.color);
-      }
+    //   p.myCustomRedrawAccordingToNewPropsHandler = (newProps) => {
+    //     if(p.canvas) //Make sure the canvas has been created
+    //       p.fill(newProps.color);
+    //   }
 
       async function swap(arr, a, b) {
         if(slow) {

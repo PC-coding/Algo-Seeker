@@ -7,20 +7,27 @@ import BFS2 from './components/BFS/BFS2';
 import QuickSort from './components/QuickSort/QuickSort';
 import BubbleSort from './components/BubbleSort/BubbleSort';
 import Router from './components/Navbar/Router';
+import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
 
   return (
+        <BrowserRouter>
       <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Pathfinding Visualizer</h1>
+        <header>
+
+            <Navbar />
             <Router />
-            <PathfindingVisualizer />
+        </header>
+            {/* <PathfindingVisualizer />
             <BFS2 />
             <BFS />
             <BubbleSort />
-            <QuickSort />
+          <QuickSort /> */}
       </div>
+          </BrowserRouter>
     )
 }  
 
