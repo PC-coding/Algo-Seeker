@@ -9,9 +9,23 @@ import BFS2 from '../BFS/BFS2';
 export default function Router(){
     return(
         <BrowserRouter>
-            <Route>
-
+            <Route path='/dijkstras'>
+                <PathfindingVisualizer />
             </Route>
+
+            <Route path='/bfs'>
+                <BFS />
+                <BFS2 />
+            </Route>
+
+            <Route path='/qsort'>
+                <QuickSort />
+            </Route>
+
+            <Route path='/bsort'>
+                <BubbleSort />
+            </Route>
+
         </BrowserRouter>
     )
 }
