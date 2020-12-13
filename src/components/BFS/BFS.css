@@ -8,9 +8,10 @@ canvas {
     left: 450px;
 } */
 
-.expandButton1 {
+/* .expandButton1 {
   left: 540px;
   position: relative;
+  text-align: center;
 
 }
 .reset1 {
@@ -22,7 +23,10 @@ canvas {
   height: 100vh;
   margin-top: 650px;
   margin-bottom: 450px;
+}
 
+#BFS > button {
+    margin: auto;
 }
 
 .description25 {
@@ -52,4 +56,4 @@ canvas {
     margin-top: 75px;
     background-color: black;
   }
-  
+   */

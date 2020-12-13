@@ -263,8 +263,10 @@ li:first-child {
   height: 100vh;
   margin-top: 650px;
   margin-bottom: 450px;
-
 }
+
+#BFS > Button {
+text-align: center;}
 
 .description25 {
   font-family: 'Nunito-Regular';
