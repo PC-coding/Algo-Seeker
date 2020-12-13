@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './BFS.css'
 import {
     Button
   } from "semantic-ui-react";
@@ -478,21 +477,21 @@ render() {
           from the middle node.
         </div>
 
-          <Button
+          <button
               className="reset1"
               onClick={ this.resetSketch }
               style= {{ textAlign: "center" }}
             >
               Reset
-            </Button>
+            </button>
 
-            <Button
+            <button
               className="expandButton1"
               color="blue"
               style={{textAlign: "center"}}
               onClick={this.handleExpandClick}>
               Expand
-            </Button>
+            </button>
 
             <br></br>
         <canvas id="canv4" ref={canvasHex => this.canvasHex = canvasHex }> </canvas>
