@@ -254,7 +254,7 @@ export default class AStar extends Component {
         return(
             <section id='AStar'>
                 <div className='title5'>
-                    A* Star Algorithm
+                    A* Algorithm
                 </div>
                 <div id="resetAStar"></div>
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>
