@@ -86,8 +86,13 @@ export default class TravelingSalesperson extends Component {
     }
     render() {
         return(
-            <section>
+            <section id='geneticAlgo'>
+                <div className='title5'>
+                    Traveling Salesperson 
+                    <br></br>with Genetic Algorithm
+                </div>
                 <div id="resetTravelingSalesperson"></div>
+                
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>
             </section>
         )
