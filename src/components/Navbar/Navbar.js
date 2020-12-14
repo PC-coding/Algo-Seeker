@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav>
                 <div>
                     <Link to='/' style={{padding: 20}}>
-                        <img src={img} style={{height:'50px', width:'50px'}} />
+                        <img src={img} style={{height:'50px', width:'50px'}} className='logobar' />
                     </Link>
                 </div>
                 <div className='nav1'>
