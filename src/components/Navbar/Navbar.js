@@ -30,6 +30,14 @@ const Navbar = () => {
                     <Link to='/qsort' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>
                     Quick Sort
                     </Link>
+
+                    <Link to='/astar' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>
+                    A* Star
+                    </Link>
+
+                    <Link to='/travelingsalesperson' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>
+                    Traveling Salesperson
+                    </Link>
                 </div>
         </nav>
     )

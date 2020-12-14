@@ -16,10 +16,16 @@ export default class TravelingSalesperson extends Component {
             let v = p.createVector(p.random(p.width), p.random(p.height));
             cities[i] = v;
           }
-        
+          var button = p.createButton("reset");
+          button.mousePressed(resetSketch);
+          button.parent("resetTravelingSalesperson");
+
           let d = calcDistance(cities);
           recordDistance = d;
           bestEver = cities.slice();
+        }
+        function resetSketch() {
+            window.location.reload();
         }
         
         p.draw = () => {
@@ -80,7 +86,10 @@ export default class TravelingSalesperson extends Component {
     }
     render() {
         return(
-            <P5Wrapper sketch={this.sketch}></P5Wrapper>
+            <section>
+                <div id="resetTravelingSalesperson"></div>
+                <P5Wrapper sketch={this.sketch}></P5Wrapper>
+            </section>
         )
     }
 }

@@ -76,7 +76,14 @@ export default class AStar extends Component {
           
             // openSet starts with beginning only
             openSet.push(start);
+
+            var button = p.createButton("reset");
+            button.mousePressed(resetSketch);
+            button.parent("resetAStar");
           }
+          function resetSketch() {
+            window.location.reload();
+        }
           
           p.draw = () => {
             // Am I still searching?
@@ -249,6 +256,7 @@ export default class AStar extends Component {
                 <div className='title5'>
                     A* Star Algorithm
                 </div>
+                <div id="resetAStar"></div>
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>
             </section>
 
