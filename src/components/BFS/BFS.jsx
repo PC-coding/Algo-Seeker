@@ -497,7 +497,5 @@ render() {
         <canvas id="canv1" ref={canvasInteraction => this.canvasInteraction = canvasInteraction} onMouseMove = {this.handleMouseMove} onClick = {this.handleClick}> </canvas>
     </section>
     )
-
   }
-
 }

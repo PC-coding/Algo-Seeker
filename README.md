@@ -15,20 +15,15 @@ Technologies used: React, JavaScript, CSS.
     Algorithms included:
 <p>  
 
+- A* Star
 
 - Breadth-first Search
-
-- Depth-first Search
-
-- Merge Sort
 
 - Quick Sort
 
 - Dijkstra's Algorithm
 
-- Greedy Best-first Search
-
-- Heap Sort
+- Traveling Salesperson with Genetic Algorithm
 
 - Bubble Sort  
 </p>
