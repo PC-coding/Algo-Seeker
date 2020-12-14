@@ -43,7 +43,7 @@ export default class AStar extends Component {
           let path = [];
           
             p.setup = () => {
-            p.createCanvas(400, 400);
+            p.createCanvas(800, 800);
             console.log('A*');
           
             // Grid cell size

@@ -11,7 +11,7 @@ export default class TravelingSalesperson extends Component {
         let bestEver;
         
         p.setup = () => {
-          p.createCanvas(400, 300);
+          p.createCanvas(900, 600);
           for (let i = 0; i < totalCities; i++) {
             let v = p.createVector(p.random(p.width), p.random(p.height));
             cities[i] = v;
