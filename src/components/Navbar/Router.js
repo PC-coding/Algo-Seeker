@@ -5,6 +5,8 @@ import QuickSort from '../QuickSort/QuickSort';
 import BubbleSort from '../BubbleSort/BubbleSort';
 import BFS from '../BFS/BFS';
 import BFS2 from '../BFS/BFS2';
+import AStar from '../A*Star/A_star';
+import TravelingSalesperson from '../Traveling_Salesperson/TravelingSalesperson';
 
 export default function Router(){
     return(
@@ -24,6 +26,14 @@ export default function Router(){
 
             <Route path='/bsort'>
                 <BubbleSort />
+            </Route>
+
+            <Route path='/astar'>
+                <AStar />
+            </Route>
+
+            <Route path='/travelingsalesperson'>
+                <TravelingSalesperson />
             </Route>
         </div>
     )

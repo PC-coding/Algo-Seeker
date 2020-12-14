@@ -282,6 +282,19 @@ text-align: center;}
 }
 
 
+#AStar {
+  height: 100vh;
+  margin-bottom: 350px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.title5 {
+  font-size: 5rem;
+  text-align: center;
+  color: black;
+}
+
 
 
 
