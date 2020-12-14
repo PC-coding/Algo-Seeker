@@ -36,7 +36,7 @@ const Navbar = () => {
                     </Link>
 
                     <Link to='/travelingsalesperson' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>
-                    Traveling Salesperson
+                    Genetic Algorithm
                     </Link>
                 </div>
         </nav>
