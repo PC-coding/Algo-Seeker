@@ -165,17 +165,18 @@ body {
 #canv4 {
   position: absolute;
   /* moves grid horizontally across the sceen. increase value to move right */
-  left: 450px;
+  left: 700px;
   margin-top: 10px;
-
+  display: inline;
 }
+
 .expandButton1 {
-  left: 540px;
+  left: 900px;
   position: relative;
 
 }
 .reset1 {
-  left: 760px;
+  left: 1200px;
   position: relative;
   text-align: center;
 }
@@ -206,7 +207,7 @@ text-align: center;}
 #canv7,
 #canv8 {
   position: absolute;
-  left: 450px;
+  left: 700px;
 
 }
 .description2 {
@@ -265,7 +266,6 @@ text-align: center;}
 #QSort {
   height: 100vh;
   margin-bottom: 350px;
-  margin-top: 200px;
   text-align: center;
 }
 .title4 {
@@ -285,7 +285,6 @@ text-align: center;}
 #AStar {
   height: 100vh;
   margin-bottom: 350px;
-  margin-top: 200px;
   text-align: center;
 }
 
@@ -294,6 +293,13 @@ text-align: center;}
   text-align: center;
   color: black;
 }
+
+#geneticAlgo {
+  height: 100vh;
+  margin-bottom: 350px;
+  text-align: center;
+}
+
 
 
 

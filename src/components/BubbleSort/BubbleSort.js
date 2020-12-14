@@ -61,7 +61,7 @@ export default class BubbleSort extends Component {
     render() {
 
         return (
-            <section id="QSort">
+            <section id="BSort">
                 <div className="title4">
                 Bubble Sort
                 </div>

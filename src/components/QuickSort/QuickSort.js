@@ -143,7 +143,7 @@ export default class QuickSort extends Component {
 render() {
     return (
 
-      <section id="BSort">
+      <section id="QSort">
         <div className="title3">
         Quick Sort
         </div>
