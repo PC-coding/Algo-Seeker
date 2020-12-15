@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Redirect } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import PathfindingVisualizer from '../PathfindingVisualizer/PathfindingVisualizer';
 import QuickSort from '../QuickSort/QuickSort';
 import BubbleSort from '../BubbleSort/BubbleSort';

@@ -7,7 +7,7 @@ const Navbar = () => {
     return(
         <nav>
                 <div>
-                    <Link to='/' style={{padding: 20}}>
+                    <Link to='/landing' style={{padding: 20}}>
                         <img src={img} style={{height:'50px', width:'50px'}} className='logobar' />
                     </Link>
                 </div>
