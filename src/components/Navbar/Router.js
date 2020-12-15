@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 import PathfindingVisualizer from '../PathfindingVisualizer/PathfindingVisualizer';
 import QuickSort from '../QuickSort/QuickSort';
 import BubbleSort from '../BubbleSort/BubbleSort';
@@ -12,7 +12,7 @@ import HomePage from '../HomePage/HomePage';
 export default function Router(){
     return(
         <div>
-            <Route path='/'>
+            <Route path='/landing'>
                 <HomePage />
             </Route>
             
@@ -40,6 +40,8 @@ export default function Router(){
             <Route path='/travelingsalesperson'>
                 <TravelingSalesperson />
             </Route>
+
+            <Redirect from='/' to='/landing' />
         </div>
     )
 }

@@ -5,6 +5,7 @@ import bsort from '../../img/bsort.png';
 import qsort from '../../img/qsort.png';
 import ts_genetic from '../../img/ts_genetic.png';
 import astar from '../../img/astar.png';
+import { Link } from 'react-router-dom';
 
 
 export default function HomePage(){
