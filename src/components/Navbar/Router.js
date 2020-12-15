@@ -41,7 +41,7 @@ export default function Router(){
                 <TravelingSalesperson />
             </Route>
 
-            <Redirect from='/' to='/landing' />
+            {/* <Redirect from='/' to='/landing' /> */}
         </div>
     )
 }

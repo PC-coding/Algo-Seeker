@@ -12,7 +12,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className='nav1'>
-                    <Link to='/' style={{ padding: 20, textDecoration:'None', color:'white', fontWeight:'bold', fontSize: 'large'}}> 
+                    <Link to='/landing' style={{ padding: 20, textDecoration:'None', color:'white', fontWeight:'bold', fontSize: 'large'}}> 
                     Choose your Algorithm!: </Link>
 
                     <Link to='/dijkstras' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>

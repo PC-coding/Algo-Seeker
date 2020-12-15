@@ -70,6 +70,8 @@ export default class BubbleSort extends Component {
                 <b> Need to make description :) </b>
                 </div>
                 <div id="resetBSort"></div>
+
+                <a onClick={() => {window.location.href='/bsort'}}>Reset</a>
             
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>
             </section>
