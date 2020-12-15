@@ -21,23 +21,23 @@ export default class QuickSort extends Component {
       states[i] = -1;
     }
     quickSort(values, 0, values.length - 1);
-    var button = p.createButton("reset");
+    let button = p.createButton("refresh");
     button.mousePressed(resetSketch);
-    button.parent("resetBSort");
-    var slowerBtn = p.createButton("slower");
+    button.parent("resetQSort");
+    let slowerBtn = p.createButton("slower");
     slowerBtn.mousePressed(quarter_speed);
-    slowerBtn.parent("resetBSort");
-    var slowBtn = p.createButton("slow");
+    slowerBtn.parent("resetQSort");
+    let slowBtn = p.createButton("slow");
     slowBtn.mousePressed(half_speed);
-    slowBtn.parent("resetBSort");
-    var normalBtn = p.createButton("normal");
+    slowBtn.parent("resetQSort");
+    let normalBtn = p.createButton("normal");
     normalBtn.mousePressed(normal_speed);
-    normalBtn.parent("resetBSort");
+    normalBtn.parent("resetQSort");
 
       }
 
       function resetSketch() {
-        window.location.reload();
+        window.location.reload('/qsort');
       }
 
       function half_speed() {
@@ -156,11 +156,8 @@ render() {
         Pivot value is swapped with currentPosition when all green shade values are less than pivot.<br></br>
       Subsequently, a new pivot is chosen, indicated by a new red bar appearing.
         </div>
-        <div id="resetBSort"></div>
-
-
+        <div id="resetQSort"></div>
         <P5Wrapper sketch={this.sketch} />
-
       </section>
     );
 

@@ -10,7 +10,9 @@ import { Link } from 'react-router-dom';
 
 export default function HomePage(){
     return(
-        <div style={{display:'grid', gridTemplateColumns: "repeat(3, 1fr)", gridGap: 20, alignContent:'center'}}>
+        <div style={{display:'grid', gridTemplateColumns: "repeat(3, 1fr)", 
+                    gridGap: 20, alignContent:'center', marginLeft:'180px', 
+                    marginTop: '25px'}}>
             <Link to='/bfs'>
                 <img src={BFS} />
             </Link>
@@ -27,7 +29,7 @@ export default function HomePage(){
                 <img src={qsort} />
             </Link>
 
-            <Link to='/travelinssalesperson'>
+            <Link to='/travelingsalesperson'>
                 <img src={ts_genetic} />
             </Link>
 

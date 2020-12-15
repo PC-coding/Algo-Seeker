@@ -21,7 +21,7 @@ export default class BubbleSort extends Component {
             }
             var button = p.createButton("reset");
             button.mousePressed(resetSketch);
-            button.parent("resetQSort");
+            button.parent("resetBSort");
         }
 
         function resetSketch() {
@@ -69,7 +69,8 @@ export default class BubbleSort extends Component {
                 <div className="description4">
                 <b> Need to make description :) </b>
                 </div>
-                <div id="resetQSort"></div>
+                <div id="resetBSort"></div>
+            
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>
             </section>
         );
