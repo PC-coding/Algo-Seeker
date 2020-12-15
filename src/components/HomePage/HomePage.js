@@ -15,7 +15,7 @@ export default function HomePage(){
                 <img src={BFS} />
             </Link>
 
-            <Link to='/dijkstra'>
+            <Link to='/dijkstras'>
                 <img src={dijkstra} />
             </Link>
 
