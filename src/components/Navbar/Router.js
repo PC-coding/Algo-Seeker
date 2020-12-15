@@ -7,10 +7,15 @@ import BFS from '../BFS/BFS';
 import BFS2 from '../BFS/BFS2';
 import AStar from '../A*Star/A_star';
 import TravelingSalesperson from '../Traveling_Salesperson/TravelingSalesperson';
+import HomePage from '../HomePage/HomePage';
 
 export default function Router(){
     return(
         <div>
+            <Route path='/'>
+                <HomePage />
+            </Route>
+            
             <Route path='/dijkstras'>
                 <PathfindingVisualizer />
             </Route>
