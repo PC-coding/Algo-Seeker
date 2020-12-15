@@ -10,12 +10,29 @@ import astar from '../../img/astar.png';
 export default function HomePage(){
     return(
         <div style={{display:'grid', gridTemplateColumns: "repeat(3, 1fr)", gridGap: 20, alignContent:'center'}}>
-            <img src={BFS} />
-            <img src={dijkstra} />
-            <img src={bsort} />
-            <img src={qsort} />
-            <img src={ts_genetic} />
-            <img src={astar} />
+            <Link to='/bfs'>
+                <img src={BFS} />
+            </Link>
+
+            <Link to='/dijkstra'>
+                <img src={dijkstra} />
+            </Link>
+
+            <Link to='/bsort'>
+                <img src={bsort} />
+            </Link>
+
+            <Link to='/qsort'>
+                <img src={qsort} />
+            </Link>
+
+            <Link to='/travelinssalesperson'>
+                <img src={ts_genetic} />
+            </Link>
+
+            <Link to='/astar'>
+                <img src={astar} />
+            </Link>
         </div>
     )
 }
