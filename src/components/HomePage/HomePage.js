@@ -9,7 +9,7 @@ import astar from '../../img/astar.png';
 
 export default function HomePage(){
     return(
-        <div>
+        <div style={{display:'grid', gridTemplateColumns: "repeat(3, 1fr)", gridGap: 20, alignContent:'center'}}>
             <img src={BFS} />
             <img src={dijkstra} />
             <img src={bsort} />
