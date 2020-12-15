@@ -106,13 +106,15 @@ export default class PathfindingVisualizer extends Component {
 </div> <b></b>
 
 <div className="dijkstraDescription">
-<b id="bold">How to use: </b>Create walls by clicking and dragging over the grid.<br></br> Hit visualize
-  to see Dijkstra's Algorithm select the shortest path! <br></br>
-<b id="bold">How it works: </b> The <b>start</b> node and <b>end</b> node are marked on left and right respectively.<br></br>
-  Find distance to all nodes from start, all distances=infinity except start node to begin <br></br>
-<b id="bold">1.</b> Pick the closest node to visit, which is start node.
+<b id="bold">How to use: </b>
+    Create walls by clicking and dragging over the grid. <br />
+    Hit visualize to see Dijkstra's Algorithm select the shortest path!  <br />
+<b id="bold"> How it works: </b> The <b>start</b> node and <b>end</b> node are marked on left and right respectively. <br />
+    Find distance to all nodes from start, all distances=infinity except start node to begin <br />
+<b id="bold">1.</b> Pick the closest node to visit, which is start node. <br />
   <b id="bold">2.</b> Update neighboring nodes, set their distance to current distance + 1.<br></br>
   <b id="bold">3.</b> Mark start node visited. Select next closest node.
+  <br />
   <b id="bold">4.</b> Pick one of the 4 neighbors and repeat.<br></br><br></br>
 <b id="bold">Note: </b>The most efficient way to keep track of the closest unvisited node is by using a Min Heap.<br></br>
   Since the amount of nodes is so few here, we opt for using an array of unvisited nodes and<br></br>
