@@ -16,7 +16,7 @@ const Navbar = () => {
                     Choose your Algorithm!: </Link>
 
                     <Link to='/dijkstras' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>
-                    Djikstra's
+                    Dijkstra's
                     </Link>
 
                     <Link to='/bfs' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>
