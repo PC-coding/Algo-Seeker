@@ -1,31 +1,19 @@
 import React, {Component} from 'react';
 import P5Wrapper from 'react-p5-wrapper';
-import Button from 'react-p5-wrapper';
-
 
 export default class BubbleSort extends Component {
     sketch(p){
         let values = [];
-
         let i = 0;
         let j = 0;
         let w = 50;
-
 
         p.setup = () => {
             p.createCanvas(900, 600);
             values = new Array(p.width);
             for (let i = 0; i < values.length; i++) {
                 values[i] = p.random(p.height);
-                //values[i] = noise(i/100.0)*height;
             }
-            var button = p.createButton("reset");
-            button.mousePressed(resetSketch);
-            button.parent("resetBSort");
-        }
-
-        function resetSketch() {
-            window.location.reload();
         }
 
         p.draw = () => {
@@ -50,7 +38,6 @@ export default class BubbleSort extends Component {
             }
         }
 
-
         function swap(arr, a, b) {
             let temp = arr[a];
             arr[a] = arr[b];
@@ -66,10 +53,9 @@ export default class BubbleSort extends Component {
                 Bubble Sort
                 </div>
 
-                <div className="description4">
+                {/* <div className="description4">
                 <b> Need to make description :) </b>
-                </div>
-                <div id="resetBSort"></div>
+                </div> */}
 
                 <button onClick={() => {window.location.href='/bsort'}}>Reset</button>
             
