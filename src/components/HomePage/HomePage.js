@@ -10,7 +10,9 @@ import { Link } from 'react-router-dom';
 
 export default function HomePage(){
     return(
-        <div style={{display:'grid', gridTemplateColumns: "repeat(3, 1fr)", 
+        <div>
+            <h1 style={{textAlign:'center', fontSize:'5rem'}}>Algo-Seeker</h1>
+           <div style={{display:'grid', gridTemplateColumns: "repeat(3, 1fr)", 
                     gridGap: 20, alignContent:'center', marginLeft:'180px', 
                     marginTop: '25px'}}>
             <Link to='/bfs'>
@@ -36,6 +38,8 @@ export default function HomePage(){
             <Link to='/astar'>
                 <img src={astar} />
             </Link>
+        </div> 
         </div>
+        
     )
 }
