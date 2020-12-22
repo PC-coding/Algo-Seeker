@@ -77,7 +77,7 @@ export default class AStar extends Component {
             // openSet starts with beginning only
             openSet.push(start);
 
-            let button = p.createButton("reset");
+            let button = p.createButton("visualize");
             button.mousePressed(resetSketch);
             button.parent("resetAStar");
           }
@@ -256,6 +256,26 @@ export default class AStar extends Component {
                 <div className='title5'>
                     A* Algorithm
                 </div>
+
+                <div className="dijkstraDescription">
+                <b id='bold'>What is it?:</b> <br/>
+                    The A* search is a graph traversal and path searching algorithm which is often<br />
+                    used in many fields of computer science due to it's completeness, optimality and efficiency.<br/>
+                    <br/>
+                <b id="bold"> How it works: </b> 
+                    <br />
+                    Like Dijkstra, A* works by amaking a shortest path tree from the <b>start</b> node to the <br/>
+                    <b>target</b> node.<br/>
+                    <br/>
+                <b id='bold'>Use in the real world:</b><br/>
+                    - It's used in various applications such as maps. In maps, the algorithm is used to calculate the <br/> 
+                    shortest distance between the initial node to the destination node.<br/>
+                    <br/>
+                <b id="bold">Note: </b>
+                    Although A* search algorithm's efficiency - one major practical drawback is it's<br/>
+                    O(bd) space complexity means that it stores all generated nodes memory.  <br></br>
+                </div>
+
                 <div id="resetAStar"></div>
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>
             </section>

@@ -53,10 +53,6 @@ export default class BubbleSort extends Component {
                 Bubble Sort
                 </div>
 
-                {/* <div className="description4">
-                <b> Need to make description :) </b>
-                </div> */}
-
                 <div className="dijkstraDescription">
                 <b id='bold'>What is it?:</b> <br/>
                     Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent 
