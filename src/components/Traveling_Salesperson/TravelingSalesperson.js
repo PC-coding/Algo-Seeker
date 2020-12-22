@@ -171,6 +171,40 @@ export default class TravelingSalesperson extends Component {
                     <br></br>with Genetic Algorithm
                 </div>
                 <div id="resetTravelingSalesperson"></div>
+
+                <div className="dijkstraDescription">
+                <b id='bold'>What is it?:</b> <br/>
+                    <b>Traveling Salesperson:</b><br/>
+                    - This is a common computer science problem which says that a salesperson is given<br/>
+                    a set of cities, he has to find the shortest path to visit each city exactly once and <br/>
+                    return to the starting city.<br/>
+                    <b>Genetic Algorithm:</b>
+                    - This algorithm is inspired by the process that supports the evolution of life.<br/>
+                    It's designed to replicate the natural selection process - survival of the fittest.<br/>
+                    <br/>
+                <b id="bold"> How it works: </b> 
+                    <br />
+                    <b>1.</b>
+                        Initialize the population randomly.
+                    <br/>
+                    <b>2.</b>
+                        Determine the fitness of the chromosome.
+                    <br/>    
+                    <b>3.</b>
+                        <b>Until done repeat:</b><br/>
+                        1) Select parents -> 
+                        2) Perform crossover and mutation ->
+                        3) Calculate the fitness of the new population ->
+                        4) Append it to the gene pool<br/>
+
+                    <br/>
+                <b id='bold'>Use in the real world:</b><br/>
+                    - They are commonly used to generate high quality solutions for optimization and search problems<br/> 
+                    - Genetic Algo concepts can be applied to engineering problems such as optimization fo gas pipeline systems.<br/> 
+                    As well as, structure optimization.<br/>
+                    <br/>
+                </div>
+
                 
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>
             </section>

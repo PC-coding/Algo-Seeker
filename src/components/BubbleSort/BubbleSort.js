@@ -57,7 +57,7 @@ export default class BubbleSort extends Component {
                 <b id='bold'>What is it?:</b> <br/>
                     Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent 
                     elements until they appear in the correct order.<br/>
-                    It's commonly referred to as the sinking sort'.<br/>
+                    It's commonly referred to as the sinking sort.<br/>
                     <br/>
                 <b id="bold"> How it works: </b> 
                     <br />
