@@ -21,7 +21,7 @@ export default class QuickSort extends Component {
       states[i] = -1;
     }
     quickSort(values, 0, values.length - 1);
-    let button = p.createButton("refresh");
+    let button = p.createButton("reset");
     button.mousePressed(resetSketch);
     button.parent("resetQSort");
     let slowerBtn = p.createButton("slower");

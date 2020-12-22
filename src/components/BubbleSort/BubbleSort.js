@@ -57,7 +57,7 @@ export default class BubbleSort extends Component {
                 <b id='bold'>What is it?:</b> <br/>
                     Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent 
                     elements until they appear in the correct order.<br/>
-                    It's commonly referred to as the sinking sort.<br/>
+                    It's commonly referred to as the sinking sort, as you can tell by the visualization below.<br/>
                     <br/>
                 <b id="bold"> How it works: </b> 
                     <br />
@@ -65,14 +65,14 @@ export default class BubbleSort extends Component {
                     The smaller elements take longer to move to their correct positions.<br/>
                     <br/>
                 <b id='bold'>Use in the real world:</b><br/>
-                    - Due to it's simple nature, the bubble sort algo is often used to introduce the<br/> 
-                    concept of algos to computer science students. <br/>
+                    - Due to it's simple nature, the bubble sort algorithm is often used to introduce the<br/> 
+                    concept of algorithms to computer science students. <br/>
                     - It interacts poorly with modern CPU hardware. It produces atleast twice as many writes,<br/> 
                     cache misses and more branch mispredicitons than an insertion sort would.<br/>
                     <br/>
                 <b id="bold">Note: </b>
                     Although bubble sort is one of the simplest sorting algorithms to understand and implement,<br></br>
-                    it's O(n2) complexity means that it's efficiency decreases the largest the list to sort through is.  <br></br>
+                    it's O(n2) complexity means that it's efficiency decreases the larger the list to sort through is.  <br></br>
                 </div>
 
                 <button onClick={() => {window.location.href='/bsort'}}>Reset</button>

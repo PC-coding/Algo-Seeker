@@ -170,7 +170,6 @@ export default class TravelingSalesperson extends Component {
                     Traveling Salesperson 
                     <br></br>with Genetic Algorithm
                 </div>
-                <div id="resetTravelingSalesperson"></div>
 
                 <div className="dijkstraDescription">
                 <b id='bold'>What is it?:</b> <br/>
@@ -205,7 +204,7 @@ export default class TravelingSalesperson extends Component {
                     <br/>
                 </div>
 
-                
+                <div id="resetTravelingSalesperson"></div>
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>
             </section>
         )
