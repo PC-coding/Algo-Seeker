@@ -57,6 +57,28 @@ export default class BubbleSort extends Component {
                 <b> Need to make description :) </b>
                 </div> */}
 
+                <div className="dijkstraDescription">
+                <b id='bold'>What is it?:</b> <br/>
+                    Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent 
+                    elements until they appear in the correct order.<br/>
+                    It's commonly referred to as the sinking sort'.<br/>
+                    <br/>
+                <b id="bold"> How it works: </b> 
+                    <br />
+                    The <b>largest end node</b> gets sorted first. <br/>
+                    The smaller elements take longer to move to their correct positions.<br/>
+                    <br/>
+                <b id='bold'>Use in the real world:</b><br/>
+                    - Due to it's simple nature, the bubble sort algo is often used to introduce the<br/> 
+                    concept of algos to computer science students. <br/>
+                    - It interacts poorly with modern CPU hardware. It produces atleast twice as many writes,<br/> 
+                    cache misses and more branch mispredicitons than an insertion sort would.<br/>
+                    <br/>
+                <b id="bold">Note: </b>
+                    Although bubble sort is one of the simplest sorting algorithms to understand and implement,<br></br>
+                    it's O(n2) complexity means that it's efficiency decreases the largest the list to sort through is.  <br></br>
+                </div>
+
                 <button onClick={() => {window.location.href='/bsort'}}>Reset</button>
             
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>
