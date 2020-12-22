@@ -16,7 +16,7 @@ const Navbar = () => {
                     Choose your Algorithm!: </Link>
 
                     <Link to='/dijkstras' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>
-                    Dijkstra's
+                    Dijkstra
                     </Link>
 
                     <Link to='/bfs' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>
@@ -32,11 +32,11 @@ const Navbar = () => {
                     </Link>
 
                     <Link to='/astar' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>
-                    A* Star
+                    A* Search
                     </Link>
 
                     <Link to='/travelingsalesperson' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>
-                    Genetic Algorithm
+                    Traveling Salesperson w/ Genetic Algo
                     </Link>
                 </div>
         </nav>
