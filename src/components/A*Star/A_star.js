@@ -254,7 +254,7 @@ export default class AStar extends Component {
         return(
             <section id='AStar'>
                 <div className='title5'>
-                    A* Algorithm
+                    A* Search Algorithm
                 </div>
 
                 <div className="dijkstraDescription">
@@ -264,7 +264,7 @@ export default class AStar extends Component {
                     <br/>
                 <b id="bold"> How it works: </b> 
                     <br />
-                    Like Dijkstra, A* works by amaking a shortest path tree from the <b>start</b> node to the <br/>
+                    Like Dijkstra, A* works by making a shortest path tree from the <b>start</b> node to the <br/>
                     <b>target</b> node.<br/>
                     <br/>
                 <b id='bold'>Use in the real world:</b><br/>
@@ -273,7 +273,7 @@ export default class AStar extends Component {
                     <br/>
                 <b id="bold">Note: </b>
                     Although A* search algorithm's efficiency - one major practical drawback is it's<br/>
-                    O(bd) space complexity means that it stores all generated nodes memory.  <br></br>
+                    O(bd) space complexity meaning that it stores all generated nodes memory.  <br></br>
                 </div>
 
                 <div id="resetAStar"></div>
