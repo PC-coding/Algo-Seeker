@@ -11,7 +11,7 @@ import Particles from 'react-tsparticles';
 
 export default function HomePage(){
     return(
-        <div>
+        <div className='homePageWrapper'>
                     {/* <h1 style={{textAlign:'center', fontSize:'5rem'}}>Algo-Seeker</h1>
                     <div style={{display:'grid', gridTemplateColumns: "repeat(3, 1fr)", 
                                 gridGap: 20, alignContent:'center', marginLeft:'180px', 
@@ -45,7 +45,8 @@ export default function HomePage(){
         options={{
           background: {
             color: {
-              value: "#0d47a1",
+            //   value: "#0d47a1",
+            value: '#de3023',
             },
           },
           fpsLimit: 60,
@@ -119,9 +120,10 @@ export default function HomePage(){
             },
           },
           detectRetina: true,
-        }}
-      />
-    );
+        }} />
+        <h1 className='homePageText'>
+            Hello
+        </h1>
         </div>
         
     )
