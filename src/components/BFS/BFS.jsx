@@ -505,8 +505,12 @@ render() {
     return (
       <section id="BFS">
         <div className="description25">
+        <b id='bold'>Real World Application:</b><br/>
+        - The BFS algorithm is taught as a common algorithm to computer science students.<br/>
+        - It can be used to solve multiple graph theory problems.<br/>
         <b id="bold">How to use:</b> Hit expand to see Breadth First Search carried out starting
-          from the middle node.
+          from the middle node.<br/>
+
         </div>
 
           <button

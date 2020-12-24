@@ -474,7 +474,10 @@ render() {
         <div className="description2">
         <b id="bold">What is it? </b>
         <br/>
-        Click different areas of the board to see how BFS algorithm finds the shortest path!<br/>
+        Breadth-First Search is an algorithm for traversing or searching tree or graph data structures.<br/>
+        It starts at the tree root and explores all of the neighboring nodes at the present depth before <br/>
+        moving on to the nodes at the next depth level.<br/>
+        
         <br/>
           <b id="bold">How to use: </b>        <br/>
         Click different areas of the board to see how BFS algorithm finds the shortest path!<br></br>
@@ -482,9 +485,9 @@ render() {
 
           <b id="bold">How it works:</b><br/>
         The shortest path is being calculated live by giving a distance value to every<br></br>
-        node on the board. The red arrows indicate the path that the algorithm is taking<br></br>
+        node on the board. The red arrows indicate the path that the algorithm is taking
         from node to node.<br></br>
-      *View the second board below to see how the shortest path is determined step by step.
+        *View the second board below to see how the shortest path is determined step by step.<br/>
         </div>
         <canvas id="canv8" ref={canvasHex => this.canvasHex = canvasHex }> </canvas>
         <canvas id="canv7" ref={canvasCoordinates => this.canvasCoordinates = canvasCoordinates }> </canvas>
