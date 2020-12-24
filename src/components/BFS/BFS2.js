@@ -472,9 +472,15 @@ render() {
         Breadth First Search
         </div>
         <div className="description2">
-          <b id="bold">How to use: </b>Click different areas of the board to see how BFS algorithm finds the shortest path!<br></br>
+        <b id="bold">What is it? </b>
+        <br/>
+        Click different areas of the board to see how BFS algorithm finds the shortest path!<br/>
+        <br/>
+          <b id="bold">How to use: </b>        <br/>
+        Click different areas of the board to see how BFS algorithm finds the shortest path!<br></br>
+          <br/>
 
-          <b id="bold">How it works:</b><br></br>
+          <b id="bold">How it works:</b><br/>
         The shortest path is being calculated live by giving a distance value to every<br></br>
         node on the board. The red arrows indicate the path that the algorithm is taking<br></br>
         from node to node.<br></br>
