@@ -28,7 +28,6 @@ body {
 /*                                              HOME SCREEN                              */
 #cover {
     height: 100%;
-    /* background: url(img/newpic2.jpg) center; */
     background-size: cover;
     color: white;
 }
@@ -65,6 +64,18 @@ body {
     text-align: center;
 }
 
+.homePageWrapper {
+  position: relative;
+}
+.homePageText {
+  background-color: white;
+  color: black;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  right: 50%;
+  /* width: 100%; */
+}
 
 
 /*                                             NAVBAR                   */
