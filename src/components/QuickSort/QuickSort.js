@@ -148,6 +148,9 @@ render() {
         Quick Sort
         </div>
         <div className="description3">
+          <b>What is it?</b><br/>
+          The Quicksort algorithm is an efficient sorting algorithm that is still commonly used,<br/>
+          it can be two to three times faster than merge sort and heapsort algorithms.<br />
           <b>Current position</b> in the array is indicated by the red bar.<br></br>
           <b>Pivot value</b> is indicated by the element immediately to the right of the green shade.<br></br>
           <b>How it works:</b> We scan through the array from left to right.<br></br>

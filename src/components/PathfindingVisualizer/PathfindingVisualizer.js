@@ -109,9 +109,11 @@ export default class PathfindingVisualizer extends Component {
     <b id='bold'>What is it?:</b> <br />
     Dijkstra's Algorithm is an algorithm for finding the shortest paths between nodes in a graph.<br />
     It generates a shortest path tree with given source which guarantees the shortest path.<br />
+    <br/>
 <b id="bold">How to use: </b> <br />
     Create walls by clicking and dragging over the grid. <br />
     Hit visualize to see Dijkstra's Algorithm select the shortest path!  <br />
+    <br/>
 <b id="bold"> How it works: </b> <br />The <b>start</b> node and <b>end</b> node are marked on left and right respectively. <br />
     Find distance to all nodes from start, all distances=infinity except start node to begin <br />
 <b id="bold">1.</b> Pick the closest node to visit, which is start node. <br />
