@@ -151,13 +151,23 @@ render() {
           <b>What is it?</b><br/>
           The Quicksort algorithm is an efficient sorting algorithm that is still commonly used,<br/>
           it can be two to three times faster than merge sort and heapsort algorithms.<br />
-          <b>Current position</b> in the array is indicated by the red bar.<br></br>
-          <b>Pivot value</b> is indicated by the element immediately to the right of the green shade.<br></br>
-          <b>How it works:</b> We scan through the array from left to right.<br></br>
-          All values greater than the pivot are swapped with currentPosition(red bar).<br></br>
-          All values less than pivot are skipped over.<br></br>
-        Pivot value is swapped with currentPosition when all green shade values are less than pivot.<br></br>
-      Subsequently, a new pivot is chosen, indicated by a new red bar appearing.
+          <br/>
+          <b>Current position</b> in the array is indicated by the red bar.<br/>
+          <b>Pivot value</b> is indicated by the element immediately to the right of the green shade.<br/>
+          <br/>
+          <b>How it works:</b><br/>
+          It's a divide-and-conquer algorithm that works by scanning through the array from left to right.<br/>
+          All values greater than the pivot are swapped with currentPosition(red bar).<br/>
+          All values less than pivot are skipped over.<br/>
+          Pivot value is swapped with currentPosition when all green shade values are less than pivot.<br></br>
+          Subsequently, a new pivot is chosen, indicated by a new red bar appearing.<br/>
+          <br/>
+          <b>Real world use:</b><br/>
+          It's the basis for many programming lanaguage libraries such as:<br/>
+          - Python<br/>
+          - Java<br/>
+          - C, C++<br/>
+
         </div>
         <div id="resetQSort"></div>
         <P5Wrapper sketch={this.sketch} />
