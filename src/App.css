@@ -73,9 +73,18 @@ body {
   position: absolute;
   text-align: center;
   top: 30%;
-  right: 50%;
+  right: 5%;
   /* width: 100%; */
 }
+.homePageHeader {
+    background-color: white;
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    right: 15%;
+    /* width: 100%; */
+  }
 
 
 /*                                             NAVBAR                   */

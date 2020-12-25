@@ -121,9 +121,13 @@ export default function HomePage(){
           },
           detectRetina: true,
         }} />
-        <h1 className='homePageText'>
-            Hello
+        <h1 className='homePageHeader'>
+          Algo-Seeker
         </h1>
+        <p className='homePageText'>
+          Welcome to my algorithm visualizer, I built this application because I was interested in <br/>
+          creating 
+        </p>
         </div>
         
     )
