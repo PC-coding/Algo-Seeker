@@ -68,24 +68,22 @@ body {
   position: relative;
 }
 .homePageText {
-  background-color: black;
+  /* background-color: black; */
   color: white;
   position: absolute;
   text-align: left;
-  top: 30%;
+  top: 20%;
   right: 5%;
   font-size: 2rem;
-  /* width: 100%; */
 }
 .homePageHeader {
-    background-color: black;
+    /* background-color: black; */
     color: white;
     position: absolute;
-    text-align: center;
-    top: 20%;
-    right: 15%;
+    /* text-align: left; */
+    top: 10%;
+    right: 25%;
     font-size: 3rem;
-    /* width: 100%; */
   }
 
 

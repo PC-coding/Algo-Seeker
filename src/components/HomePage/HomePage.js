@@ -7,6 +7,7 @@ import ts_genetic from '../../img/ts_genetic.png';
 import astar from '../../img/astar.png';
 import { Link } from 'react-router-dom';
 import Particles from 'react-tsparticles';
+import img from '../../img/algoseekertransparent.png';
 
 
 export default function HomePage(){
@@ -123,11 +124,12 @@ export default function HomePage(){
       }} />
 
       <h1 className='homePageHeader'>
-        Algo-Seeker
+        {/* Algo-Seeker */}
+        <img src={img} />
       </h1>
 
       <p className='homePageText'>
-        Welcome to this algorithm visualizer, I built this application <br/> 
+        Welcome to my algorithm visualizer, I built this application <br/> 
         because I was interested in
         creating a pathfinding and  <br/>
         sorting visualizer using 
