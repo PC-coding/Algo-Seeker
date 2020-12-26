@@ -139,7 +139,7 @@ export default function HomePage(){
       <br/>
         Sources: <br/>
 
-        <a href=''>Link</a><br/>
+        <a href='https://www.geeksforgeeks.org/fundamentals-of-algorithms/'>Basic Algorithm Introductions</a><br/>
         <a href=''>Link</a><br/>
         <a href=''>Link</a>
 

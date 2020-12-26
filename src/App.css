@@ -72,7 +72,7 @@ body {
   color: white;
   position: absolute;
   text-align: left;
-  top: 20%;
+  top: 45%;
   right: 5%;
   font-size: 2rem;
 }
@@ -81,8 +81,8 @@ body {
     color: white;
     position: absolute;
     /* text-align: left; */
-    top: 10%;
-    right: 25%;
+    top: 0%;
+    right: 20%;
     font-size: 3rem;
   }
 
