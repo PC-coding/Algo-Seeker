@@ -7,7 +7,7 @@ import ts_genetic from '../../img/ts_genetic.png';
 import astar from '../../img/astar.png';
 import { Link } from 'react-router-dom';
 import Particles from 'react-tsparticles';
-import img from '../../img/algoseekertransparent.png';
+import img from '../../img/algob-w-2.png';
 
 
 export default function HomePage(){
