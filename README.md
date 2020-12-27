@@ -33,7 +33,8 @@ Technologies used: React, JavaScript, CSS.
     </li>
 </ul>
 
-<!-- # Demo -->
+# Demo
+![AlgoSeeker](https://media.giphy.com/media/YekW1tdl8rok1OSAIE/giphy.gif)
 
 # Sources
 <a href="https://reactjs.org/docs/getting-started.html"> React Documentation </a>
