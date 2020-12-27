@@ -157,7 +157,7 @@ render() {
           Pivot value is swapped with currentPosition when all green shade values are less than pivot.<br></br>
           Subsequently, a new pivot is chosen, indicated by a new red bar appearing.<br/>
           <br/>
-          <b>Real world use:</b><br/>
+          <b>Real World Application:</b><br/>
           It's the basis for many programming lanaguage libraries such as:<br/>
           - Python<br/>
           - Java<br/>

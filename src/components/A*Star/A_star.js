@@ -267,7 +267,7 @@ export default class AStar extends Component {
                     Like Dijkstra, A* works by making a shortest path tree from the <b>start</b> node to the <br/>
                     <b>target</b> node.<br/>
                     <br/>
-                <b id='bold'>Use in the real world:</b><br/>
+                <b id='bold'>Real World Application:</b><br/>
                     - It's used in various applications such as maps. In maps, the algorithm is used to calculate the <br/> 
                     shortest distance between the initial node to the destination node.<br/>
                     <br/>
@@ -277,6 +277,7 @@ export default class AStar extends Component {
                 </div>
 
                 <div id="resetAStar"></div>
+                <br/>
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>
             </section>
 

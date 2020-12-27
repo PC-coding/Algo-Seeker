@@ -64,7 +64,7 @@ export default class BubbleSort extends Component {
                     The <b>largest end node</b> gets sorted first. <br/>
                     The smaller elements take longer to move to their correct positions.<br/>
                     <br/>
-                <b id='bold'>Use in the real world:</b><br/>
+                <b id='bold'>Real World Application:</b><br/>
                     - Due to it's simple nature, the bubble sort algorithm is often used to introduce the<br/> 
                     concept of algorithms to computer science students. <br/>
                     - It interacts poorly with modern CPU hardware. It produces atleast twice as many writes,<br/> 

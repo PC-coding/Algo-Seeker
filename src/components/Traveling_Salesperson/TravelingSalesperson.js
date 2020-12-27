@@ -190,21 +190,21 @@ export default class TravelingSalesperson extends Component {
                         Determine the fitness of the chromosome.
                     <br/>    
                     <b>3.</b>
-                        <b>Until done repeat:</b><br/>
+                        <b>Repeat until done:</b><br/>
                         1) Select parents -> 
                         2) Perform crossover and mutation ->
                         3) Calculate the fitness of the new population ->
                         4) Append it to the gene pool<br/>
 
                     <br/>
-                <b id='bold'>Use in the real world:</b><br/>
+                <b id='bold'>Real World Application:</b><br/>
                     - They are commonly used to generate high quality solutions for optimization and search problems<br/> 
                     - Genetic Algo concepts can be applied to engineering problems such as optimization for gas pipeline systems.<br/> 
                     As well as, structure optimization.<br/>
-                    <br/>
                 </div>
 
                 <div id="resetTravelingSalesperson"></div>
+                <br/>
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>
             </section>
         )
