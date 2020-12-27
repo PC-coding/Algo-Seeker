@@ -1,6 +1,6 @@
 # Algo-Seeker
 <p>
-A web application engineered and designed to visualize common algorithms like BFS, DFS, Merge Sort or Quick Sort. 
+A web application engineered and designed to visualize common algorithms like BFS, Dijkstra's, Bubble Sort and Quick Sort. 
 I'm working on this application to reinforce my knowledge on Algorithms and I thought it would be interesting to visualize pathfinding + sorting algorithms in action.   
 
 Technologies used: React, JavaScript, CSS.
@@ -37,4 +37,9 @@ Technologies used: React, JavaScript, CSS.
 ![AlgoSeeker](https://media.giphy.com/media/YekW1tdl8rok1OSAIE/giphy.gif)
 
 # Sources
-<a href="https://reactjs.org/docs/getting-started.html"> React Documentation </a>
+<a href="https://reactjs.org/docs/getting-started.html"> React Documentation </a><br/>
+<a href="https://p5js.org/reference/"> P5 Documentation </a><br/>
+<a href="https://www.npmjs.com/package/react-particles-js"> React Particles Documentation </a><br/>
+<a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/"> Algorithms Research </a>
+
+
