@@ -115,11 +115,6 @@ export default class QuickSort extends Component {
     }
       }
 
-    //   p.myCustomRedrawAccordingToNewPropsHandler = (newProps) => {
-    //     if(p.canvas) //Make sure the canvas has been created
-    //       p.fill(newProps.color);
-    //   }
-
       async function swap(arr, a, b) {
         if(slow) {
           await sleep(1000);
@@ -170,6 +165,7 @@ render() {
 
         </div>
         <div id="resetQSort"></div>
+        <br/>
         <P5Wrapper sketch={this.sketch} />
       </section>
     );
