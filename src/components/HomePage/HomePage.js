@@ -89,7 +89,6 @@ export default function HomePage(){
         }} />
 
         <h1 className='homePageHeader'>
-          {/* Algo-Seeker */}
           <img src={img} />
         </h1>
 
@@ -104,9 +103,9 @@ export default function HomePage(){
         <br/>
           Sources: <br/>
 
-          <a href='https://www.geeksforgeeks.org/fundamentals-of-algorithms/'>Basic Algorithm Introductions</a><br/>
-          <a href=''>Link</a><br/>
-          <a href=''>Link</a>
+          <a href='https://www.geeksforgeeks.org/fundamentals-of-algorithms/'style={{color:'black'}}>Basic Algorithm Introductions</a><br/>
+          <a href='https://p5js.org/reference/' style={{color:'black'}}>P5 Documentation</a><br/>
+          <a href='https://www.npmjs.com/package/react-particles-js' style={{color:'black'}}>React Particles</a>
 
         </p>
       </div>
