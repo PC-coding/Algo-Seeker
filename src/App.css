@@ -182,7 +182,7 @@ body {
 #canv4 {
   position: absolute;
   /* moves grid horizontally across the sceen. increase value to move right */
-  left: 700px;
+  left: 550px;
   margin-top: 10px;
   display: inline;
 }
@@ -223,7 +223,7 @@ text-align: center;}
 #canv7,
 #canv8 {
   position: absolute;
-  left: 700px;
+  left: 550px;
 
 }
 .description2 {

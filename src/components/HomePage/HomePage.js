@@ -89,7 +89,7 @@ export default function HomePage(){
         }} />
 
         <h1 className='homePageHeader'>
-          <img src={img} />
+          <img src={img} style={{height:'500px'}}/>
         </h1>
 
         <p className='homePageText'>
