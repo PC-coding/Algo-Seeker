@@ -7,12 +7,12 @@ const Navbar = () => {
     return(
         <nav>
                 <div>
-                    <Link to='/landing' style={{padding: 20}}>
+                    <Link to='/AlgoSeeker' style={{padding: 20}}>
                         <img src={img} style={{height:'50px', width:'50px'}} className='logobar' />
                     </Link>
                 </div>
                 <div className='nav1'>
-                    <Link to='/landing' style={{ padding: 20, textDecoration:'None', color:'white', fontWeight:'bold', fontSize: 'large'}}> 
+                    <Link to='/AlgoSeeker' style={{ padding: 20, textDecoration:'None', color:'white', fontWeight:'bold', fontSize: 'large'}}> 
                     Choose your Algorithm!: </Link>
 
                     <Link to='/dijkstras' style={{padding: 20, color:'white', fontWeight:'bold', fontSize: 'large'}}>

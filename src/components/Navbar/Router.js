@@ -12,7 +12,7 @@ import HomePage from '../HomePage/HomePage';
 export default function Router(){
     return(
         <div>
-            <Route path='/landing'>
+            <Route path='/AlgoSeeker'>
                 <HomePage />
             </Route>
             
