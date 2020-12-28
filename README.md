@@ -4,6 +4,8 @@ A web application engineered and designed to visualize common algorithms like BF
 I'm working on this application to reinforce my knowledge on Algorithms and I thought it would be interesting to visualize pathfinding + sorting algorithms in action.   
 
 Technologies used: React, JavaScript, CSS.
+
+<a href='http://pc-coding.github.io/AlgoSeeker'>Check it out here!</a>
 </p>
 
 # What I Learned
