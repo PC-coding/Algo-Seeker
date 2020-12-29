@@ -77,9 +77,9 @@ export default class AStar extends Component {
             // openSet starts with beginning only
             openSet.push(start);
 
-            let button = p.createButton("visualize");
-            button.mousePressed(resetSketch);
-            button.parent("resetAStar");
+            // let button = p.createButton("visualize");
+            // button.mousePressed(resetSketch);
+            // button.parent("resetAStar");
           }
           function resetSketch() {
             window.location.reload();

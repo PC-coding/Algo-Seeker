@@ -31,9 +31,9 @@ export default class TravelingSalesperson extends Component {
         }
         statusP = p.createP('').style('font-size', '32pt');
 
-        let button = p.createButton("reset");
-            button.mousePressed(resetSketch);
-            button.parent("resetTravelingSalesperson");
+        // let button = p.createButton("reset");
+        //     button.mousePressed(resetSketch);
+        //     button.parent("resetTravelingSalesperson");
         }
 
         function resetSketch() {
