@@ -75,7 +75,7 @@ export default class BubbleSort extends Component {
                     it's O(n2) complexity means that it's efficiency decreases the larger the list to sort through is.  <br></br>
                 </div>
 
-                <button onClick={() => {window.location.href='/bsort'}}>Reset</button>
+                {/* <button onClick={() => {window.location.href='/bsort'}}>Reset</button> */}
                 <br/>
                 <br/>
                 <P5Wrapper sketch={this.sketch}></P5Wrapper>

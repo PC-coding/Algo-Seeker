@@ -164,7 +164,7 @@ render() {
           - C, C++<br/>
 
         </div>
-        <div id="resetQSort"></div>
+        {/* <div id="resetQSort"></div> */}
         <br/>
         <P5Wrapper sketch={this.sketch} />
       </section>

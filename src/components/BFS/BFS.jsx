@@ -513,13 +513,13 @@ render() {
 
         </div>
 
-          <button
+          {/* <button
               className="reset1"
               onClick={ this.resetSketch }
               style= {{ textAlign: "center" }}
             >
               Reset
-            </button>
+            </button> */}
 
             <button
               className="expandButton1"
