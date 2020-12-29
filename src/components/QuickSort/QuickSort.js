@@ -21,9 +21,9 @@ export default class QuickSort extends Component {
       states[i] = -1;
     }
     quickSort(values, 0, values.length - 1);
-    let button = p.createButton("reset");
-    button.mousePressed(resetSketch);
-    button.parent("resetQSort");
+    // let button = p.createButton("reset");
+    // button.mousePressed(resetSketch);
+    // button.parent("resetQSort");
     let slowerBtn = p.createButton("slower");
     slowerBtn.mousePressed(quarter_speed);
     slowerBtn.parent("resetQSort");
@@ -164,7 +164,7 @@ render() {
           - C, C++<br/>
 
         </div>
-        {/* <div id="resetQSort"></div> */}
+        <div id="resetQSort"></div>
         <br/>
         <P5Wrapper sketch={this.sketch} />
       </section>
