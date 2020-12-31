@@ -489,11 +489,12 @@ render() {
         from node to node.<br></br>
         *View the second board below to see how the shortest path is determined step by step.<br/>
         </div>
-        <canvas id="canv8" ref={canvasHex => this.canvasHex = canvasHex }> </canvas>
-        <canvas id="canv7" ref={canvasCoordinates => this.canvasCoordinates = canvasCoordinates }> </canvas>
-        <canvas id="canv6" ref={canvasView => this.canvasView = canvasView }> </canvas>
-        <canvas id="canv5" ref={canvasInteraction => this.canvasInteraction = canvasInteraction} onMouseMove = {this.handleMouseMove} onClick={this.handleClick}> </canvas>
-
+        <div className='canvasWrapper'>
+          <canvas id="canv8" ref={canvasHex => this.canvasHex = canvasHex }> </canvas>
+          <canvas id="canv7" ref={canvasCoordinates => this.canvasCoordinates = canvasCoordinates }> </canvas>
+          <canvas id="canv6" ref={canvasView => this.canvasView = canvasView }> </canvas>
+          <canvas id="canv5" ref={canvasInteraction => this.canvasInteraction = canvasInteraction} onMouseMove = {this.handleMouseMove} onClick={this.handleClick}> </canvas>
+        </div>
     </div>
     )
 

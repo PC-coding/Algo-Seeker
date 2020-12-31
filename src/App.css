@@ -187,6 +187,12 @@ body {
   display: inline;
 }
 
+.canvasWrapper {
+    display: block;
+    margin: 0 auto;
+}
+
+
 .expandButton1 {
   left: 900px;
   position: relative;
@@ -233,7 +239,7 @@ text-align: center;}
   text-align: center;
 }
 .title2 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: black;
     text-align: center;
 }

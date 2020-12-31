@@ -530,10 +530,12 @@ render() {
             </button>
 
             <br></br>
-        <canvas id="canv4" ref={canvasHex => this.canvasHex = canvasHex }> </canvas>
-        <canvas id="canv3" ref={canvasCoordinates => this.canvasCoordinates = canvasCoordinates }> </canvas>
-        <canvas id="canv2" ref={canvasView => this.canvasView = canvasView }> </canvas>
-        <canvas id="canv1" ref={canvasInteraction => this.canvasInteraction = canvasInteraction} onMouseMove = {this.handleMouseMove} onClick = {this.handleClick}> </canvas>
+        <div className='canvasWrapper'>
+          <canvas id="canv4" ref={canvasHex => this.canvasHex = canvasHex }> </canvas>
+          <canvas id="canv3" ref={canvasCoordinates => this.canvasCoordinates = canvasCoordinates }> </canvas>
+          <canvas id="canv2" ref={canvasView => this.canvasView = canvasView }> </canvas>
+          <canvas id="canv1" ref={canvasInteraction => this.canvasInteraction = canvasInteraction} onMouseMove = {this.handleMouseMove} onClick = {this.handleClick}> </canvas>
+        </div>
     </section>
     )
   }
