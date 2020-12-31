@@ -182,14 +182,14 @@ body {
 #canv4 {
   position: absolute;
   /* moves grid horizontally across the sceen. increase value to move right */
-  left: 550px;
-  margin-top: 10px;
+  /* left: 550px;
+  margin-top: 10px; */
   display: inline;
 }
 
 .canvasWrapper {
-    display: block;
-    margin: 0 auto;
+    width: 65%;
+    text-align: center;
 }
 
 
@@ -229,7 +229,9 @@ text-align: center;}
 #canv7,
 #canv8 {
   position: absolute;
-  left: 550px;
+  /* left: 550px;
+  margin: 0 auto; */
+  display: inline;
 
 }
 .description2 {
