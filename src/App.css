@@ -71,15 +71,14 @@ body {
   color: white;
   position: absolute;
   text-align: left;
-  top: 40%;
-  right: 5%;
+  top: 50%;
+  margin-left: 2%;
   font-size: 1.5rem;
 }
 .homePageHeader {
     color: white;
     position: absolute;
     top: 0%;
-    right: 20%;
     font-size: 3rem;
   }
 
