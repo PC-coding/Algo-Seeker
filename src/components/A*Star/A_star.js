@@ -4,91 +4,93 @@ import P5Wrapper from 'react-p5-wrapper';
 export default class AStar extends Component {
     sketch(p){
 
-        // Function to delete element from the array
+        // Function to delete element from array
         function removeFromArray(arr, elt) {
-            // Could use indexOf here instead to be more efficient
             for (let i = arr.length - 1; i >= 0; i--) {
               if (arr[i] == elt) {
                 arr.splice(i, 1);
               }
             }
+        }
+        
+        // educated guess of the distance between two points
+        function heuristic(a, b) {
+          let d = p.dist(a.i, a.j, b.i, b.j);
+          // let d = abs(a.i - b.i) + abs(a.j - b.j);
+          return d;
+        }
+        
+        // # of columns and rows?
+        let cols = 50;
+        let rows = 50;
+        
+        // the 2D array
+        let grid = new Array(cols);
+        
+        // open and closed set
+        let openSet = [];
+        let closedSet = [];
+        
+        // start and end
+        let start;
+        let end;
+        
+        // width + height of each cell in grid
+        let w, h;
+        
+        // path taken
+        let path = [];
+        
+          p.setup = () => {
+          p.createCanvas(800, 800);
+          console.log('A*');
+        
+          // grid cell size
+          w = p.width / cols;
+          h = p.height / rows;
+        
+          // making 2D array
+          for (let i = 0; i < cols; i++) {
+            grid[i] = new Array(rows);
           }
-          
-          // An educated guess of how far it is between two points
-          function heuristic(a, b) {
-            let d = p.dist(a.i, a.j, b.i, b.j);
-            // let d = abs(a.i - b.i) + abs(a.j - b.j);
-            return d;
+        
+          for (let i = 0; i < cols; i++) {
+            for (let j = 0; j < rows; j++) {
+              grid[i][j] = new Spot(i, j);
+            }
           }
-          
-          // How many columns and rows?
-          let cols = 50;
-          let rows = 50;
-          
-          // This will be the 2D array
-          let grid = new Array(cols);
-          
-          // Open and closed set
-          let openSet = [];
-          let closedSet = [];
-          
-          // Start and end
-          let start;
-          let end;
-          
-          // Width and height of each cell of grid
-          let w, h;
-          
-          // The road taken
-          let path = [];
-          
-            p.setup = () => {
-            p.createCanvas(800, 800);
-            console.log('A*');
-          
-            // Grid cell size
-            w = p.width / cols;
-            h = p.height / rows;
-          
-            // Making a 2D array
-            for (let i = 0; i < cols; i++) {
-              grid[i] = new Array(rows);
+        
+          // all the neighbors
+          for (let i = 0; i < cols; i++) {
+            for (let j = 0; j < rows; j++) {
+              grid[i][j].addNeighbors(grid);
             }
-          
-            for (let i = 0; i < cols; i++) {
-              for (let j = 0; j < rows; j++) {
-                grid[i][j] = new Spot(i, j);
-              }
-            }
-          
-            // All the neighbors
-            for (let i = 0; i < cols; i++) {
-              for (let j = 0; j < rows; j++) {
-                grid[i][j].addNeighbors(grid);
-              }
-            }
-          
-            // Start and end
-            start = grid[0][0];
-            end = grid[cols - 1][rows - 1];
-            start.wall = false;
-            end.wall = false;
-          
-            // openSet starts with beginning only
-            openSet.push(start);
+          }
+        
+          // start and end
+          start = grid[0][0];
+          end = grid[cols - 1][rows - 1];
+          start.wall = false;
+          end.wall = false;
+        
+          // openSet starts with beginning only
+          openSet.push(start);
 
-            // let button = p.createButton("visualize");
-            // button.mousePressed(resetSketch);
-            // button.parent("resetAStar");
-          }
-          function resetSketch() {
-            window.location.reload();
+          // reset buttons not working for now -- need to find solution 
+
+          // let button = p.createButton("visualize");
+          // button.mousePressed(resetSketch);
+          // button.parent("resetAStar");
+        }
+
+        function resetSketch() {
+          window.location.reload();
         }
           
           p.draw = () => {
-            // Am I still searching?
+            // still searching?
             if (openSet.length > 0) {
-              // Best next option
+              // best next option
               let winner = 0;
               for (let i = 0; i < openSet.length; i++) {
                 if (openSet[i].f < openSet[winner].f) {
@@ -97,7 +99,7 @@ export default class AStar extends Component {
               }
               let current = openSet[winner];
           
-              // Did I finish?
+              // finished?
               if (current === end) {
                 p.noLoop();
                 console.log('DONE!');
@@ -107,16 +109,16 @@ export default class AStar extends Component {
               removeFromArray(openSet, current);
               closedSet.push(current);
           
-              // Check all the neighbors
+              // checking every neighbor
               let neighbors = current.neighbors;
               for (let i = 0; i < neighbors.length; i++) {
                 let neighbor = neighbors[i];
           
-                // Valid next spot?
+                // validating next spot
                 if (!closedSet.includes(neighbor) && !neighbor.wall) {
                   let tempG = current.g + heuristic(neighbor, current);
           
-                  // Is this a better path than before?
+                  // better path?
                   let newPath = false;
                   if (openSet.includes(neighbor)) {
                     if (tempG < neighbor.g) {
@@ -129,7 +131,7 @@ export default class AStar extends Component {
                     openSet.push(neighbor);
                   }
           
-                  // Yes, it's a better path
+                  // confirmed better path
                   if (newPath) {
                     neighbor.h = heuristic(neighbor, end);
                     neighbor.f = neighbor.g + neighbor.h;
@@ -137,7 +139,7 @@ export default class AStar extends Component {
                   }
                 }
               }
-              // Uh oh, no solution
+              // Error -- no solution
             } else {
               console.log('no solution');
               p.noLoop();
@@ -161,7 +163,7 @@ export default class AStar extends Component {
               openSet[i].show(p.color(0, 255, 0, 50));
             }
           
-            // Find the path by working backwards
+            // finding path by working backwards
             path = [];
             let temp = path;
             path.push(temp);
@@ -201,13 +203,13 @@ export default class AStar extends Component {
               // Where did I come from?
               this.previous = undefined;
             
-              // Am I a wall?
+              // Wall
               this.wall = false;
               if (p.random(1) < 0.4) {
                 this.wall = true;
               }
             
-              // Display me
+              // Display
               this.show = function(col) {
                 if (this.wall) {
                   p.fill(0);
