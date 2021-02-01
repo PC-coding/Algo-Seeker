@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/AlgoSeeker/static/css/main.f073510c.chunk.css",
-    "main.js": "/AlgoSeeker/static/js/main.98b75dbd.chunk.js",
-    "main.js.map": "/AlgoSeeker/static/js/main.98b75dbd.chunk.js.map",
+    "main.js": "/AlgoSeeker/static/js/main.7bc7fb7e.chunk.js",
+    "main.js.map": "/AlgoSeeker/static/js/main.7bc7fb7e.chunk.js.map",
     "runtime-main.js": "/AlgoSeeker/static/js/runtime-main.ec7d578f.js",
     "runtime-main.js.map": "/AlgoSeeker/static/js/runtime-main.ec7d578f.js.map",
-    "static/js/2.9d6d21b4.chunk.js": "/AlgoSeeker/static/js/2.9d6d21b4.chunk.js",
-    "static/js/2.9d6d21b4.chunk.js.map": "/AlgoSeeker/static/js/2.9d6d21b4.chunk.js.map",
+    "static/js/2.53a26af0.chunk.js": "/AlgoSeeker/static/js/2.53a26af0.chunk.js",
+    "static/js/2.53a26af0.chunk.js.map": "/AlgoSeeker/static/js/2.53a26af0.chunk.js.map",
     "static/js/3.d18382e7.chunk.js": "/AlgoSeeker/static/js/3.d18382e7.chunk.js",
     "static/js/3.d18382e7.chunk.js.map": "/AlgoSeeker/static/js/3.d18382e7.chunk.js.map",
     "index.html": "/AlgoSeeker/index.html",
     "static/css/main.f073510c.chunk.css.map": "/AlgoSeeker/static/css/main.f073510c.chunk.css.map",
-    "static/js/2.9d6d21b4.chunk.js.LICENSE.txt": "/AlgoSeeker/static/js/2.9d6d21b4.chunk.js.LICENSE.txt",
+    "static/js/2.53a26af0.chunk.js.LICENSE.txt": "/AlgoSeeker/static/js/2.53a26af0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/AlgoSeeker/static/media/pattern.9799c1ad.jpg",
     "static/media/algob-w-2.732f5cbb.png": "/AlgoSeeker/static/media/algob-w-2.732f5cbb.png",
     "static/media/algoseeker.4339e3ea.png": "/AlgoSeeker/static/media/algoseeker.4339e3ea.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ec7d578f.js",
-    "static/js/2.9d6d21b4.chunk.js",
+    "static/js/2.53a26af0.chunk.js",
     "static/css/main.f073510c.chunk.css",
-    "static/js/main.98b75dbd.chunk.js"
+    "static/js/main.7bc7fb7e.chunk.js"
   ]
 }
